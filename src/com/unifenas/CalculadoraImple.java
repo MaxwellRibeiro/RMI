@@ -11,6 +11,6 @@ public class CalculadoraImple extends UnicastRemoteObject implements  Calculador
 
     @Override
     public long add(long a, long b) throws RemoteException {
-        return 0;
+        return a + b;
     }
 }
