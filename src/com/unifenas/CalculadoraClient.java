@@ -59,7 +59,7 @@ public class CalculadoraClient {
             }
 
         } catch (Exception e){
-            e.printStackTrace();
+            System.out.println("Ops. Temos um erro: "+ e.getMessage());
         }
     }
 
