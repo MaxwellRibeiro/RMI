@@ -10,7 +10,7 @@ public class CalculadoraImple extends UnicastRemoteObject implements  Calculador
         super();
     }
 
-    public long add(long a, long b) throws RemoteException {
+public float add(float a, float b) throws RemoteException {
         return a + b;
     }
 
