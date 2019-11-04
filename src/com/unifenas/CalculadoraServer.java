@@ -6,9 +6,9 @@ import java.rmi.registry.LocateRegistry;
 
 public class CalculadoraServer {
 
-    CalculadoraServer(){
+    CalculadoraServer() {
         try{
-            System.setProperty("java.rmi.server.hostname", "172.16.50.45");
+            System.setProperty("java.rmi.server.hostname", "192.168.102.93");
             LocateRegistry.createRegistry(1099);
             Calculadora c = new CalculadoraImple();
             Naming.bind("CalculadoraService", (Remote) c);

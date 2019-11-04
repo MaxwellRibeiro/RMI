@@ -13,4 +13,16 @@ public class CalculadoraImple extends UnicastRemoteObject implements  Calculador
     public long add(long a, long b) throws RemoteException {
         return a + b;
     }
+
+    public float subtract(float a, float b) throws RemoteException{
+        return a - b;
+    }
+
+    public float multiply(float a, float b) throws RemoteException{
+        return a * b;
+    }
+
+    public float Division(float a, float b) throws RemoteException{
+        return a / b;
+    }
 }
